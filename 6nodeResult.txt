@@ -1,0 +1,21 @@
+Page Rank values for iteration 1
+A: Page Rank value: 0.24930555555555556
+B: Page Rank value: 0.1428587962962963
+C: Page Rank value: 0.16141073495370373
+D: Page Rank value: 0.12395705656828704
+E: Page Rank value: 0.19752015331127026
+F: Page Rank value: 0.15233494280779805
+Page Rank values for iteration 10
+A: Page Rank value: 0.25243766985438787
+B: Page Rank value: 0.1394532804280765
+C: Page Rank value: 0.15145587210966907
+D: Page Rank value: 0.11900256773757562
+E: Page Rank value: 0.1872198873511437
+F: Page Rank value: 0.1514458741939443
+Page Rank values for iteration 100
+A: Page Rank value: 0.2521271053751956
+B: Page Rank value: 0.1393061853185386
+C: Page Rank value: 0.1513064898667053
+D: Page Rank value: 0.11890782257353921
+E: Page Rank value: 0.18704590699931614
+F: Page Rank value: 0.1513064898667053

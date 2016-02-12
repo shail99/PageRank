@@ -1,0 +1,43 @@
+Question 4: Examine the top 10 pages by PageRank and the top 10 by inlink count in the Lemur Web Interface
+
+Let us consider the first 2 pages of the pages sorted by PageRank and Inlink Count. Their document id's are WT21-B37-76 and 
+WT21-B37-75. The page with document id WT21-B37-76 and WT21-B37-75 may have a higher page rank value because of the number 
+of inlink counts in both of these pages i.e. 2568 and 1704 and they may possibly contain pages with higher page rank values.
+Let us consider the remaining pages of the list sorted on the page rank values :
+Example 1: WT25-B39-116 i.e. it may have high page rank value 
+because it has an inlink count of 169 and moreover it is also linking it to itself, so that is the reason that it may be having a higher
+page rank value.
+Example 2: WT23-B21-53, it has an inlink count of 198 and outlink count of 1 which points to itself making it a strong contender for a 
+higher page rank.
+Example 3: WT08-B18-400, based on the page rank value it stands at position 10. One of the major reasons is the higher inlink count for 
+this particular document id. It has an inlink count of 990 but a zero outlink count.
+
+Let us check whether all of these documents are what user's would be looking for in response to an appropriate query: 
+Let's take an example: 
+docID: WT27-B28-203,WT08-B18-40 stands at position 10 in the pages sorted by inlink count and stands at position 10 in the pages sorted 
+by rank.
+Both takes us to the home page of TD Bank which most of the users would be looking for and it can be categorized as interesting to most 
+of the users if they are looking for an online banking system.
+
+docID: WT13-B06-284 stands at position 10 in pages sorted by page rank.
+It takes us to legalresearch.com which might be interesting to many users searching for legal advice and due to high inlink count it has 
+a higher page rank value.
+
+docID: WT24-B40-171 stands at position 6 in the pages sorted by page rank.
+It redirects to http://www.chch.com/live/ which is live streaming of tv shows and it is of great interest to users looking for online tv 
+shows. Also this link has an inlink count on the higher side i.e. 270.
+
+docID: WT23-B21-53 stands at position at position 4 in the pages sorted by page rank.
+It redirects to https://search.yahoo.com/yhs/errorhandler?hspart=gt&hsimp=yhse-gt&q=www.sea.usscouts.org%2Fteam.html%20206.26.8.102%2019970210180409%20text%2F&type=808263
+which cannot be of interest to users who search for "sea us scout team" but has higher page rank value because of inlink count 198 and 
+link to itself.
+
+In short, pages with high inlink count can have a higher page rank value but it will hold true for the first few pages of the data set. 
+Generally, pages may have a higher page rank value even if they don't have a relatively high inlink count but if they are linked with 
+pages that already have a high page rank value.
+Also pages have a higher page rank value if they have a higher inlink count and also are pointing to itself.
+
+So the page rank result obtained has the first 2 documents in both the pages sorted by page rank and the pages sorted by inlink count as 
+the same but they start to differ going forward as the page with a higher page rank value may be having an inlink whose page rank is of 
+higher value and this needs to be taken into consideration and given a higher priority than the inlink count.
+

@@ -1,0 +1,3 @@
+Proportion of pages with no inlinks: 0.07806932120493333
+Proportion of pages with no outlinks: 0.3600165387272797
+Proportion of pages whose page rank values is less than their initial: 0.7850618298143202
